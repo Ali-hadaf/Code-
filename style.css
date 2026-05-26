@@ -1,1 +1,77 @@
+body{
+    background: green;
+    margin:0;
+  }
+
+  .wrapper{
+    background: white;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    border: solid 5px aqua;
+    border-radius: 15px;
+  }
+
+  header{
+    background-color: #333;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  nav{
+    float: left;
+    width: 150px;
+    padding: 10px;
+    background-color: #2CEF06;
+    min-height: 300px;
+  }
+
+  nav a{
+    color: #333;
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  /* hover FIX ONLY */
+  nav a:hover{
+    background: #00272B;
+    color: #E0FF4F;
+    border-radius: 5px;
+  }
+
+  main{
+    margin-left: 170px;
+    padding: 10px;
+    background-color: rgb(160, 95, 131);
+    color: white;
+    min-height: 300px;
+  }
+
+  /* ✅ RESPONSIVE ONLY FIX */
+  @media(max-width:768px){
+
+    .wrapper{
+      width: 95%;
+    }
+
+    nav{
+      float: none;
+      width: 100%;
+      min-height: auto;
+    }
+
+    main{
+      margin-left: 0;
+    }
+
+    header{
+      font-size: 30px;
+      text-align: center;
+    }
+
+  }
+
 
