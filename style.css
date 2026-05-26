@@ -50,7 +50,7 @@ body{
     min-height: 300px;
   }
 
-/* ✅ RESPONSIVE ONLY FIX 
+/* ✅ RESPONSIVE ONLY FIX */
   @media(max-width:768px){
 
     .wrapper{
@@ -72,5 +72,5 @@ body{
       text-align: center;
     }
 
-  } */
+  } 
 
